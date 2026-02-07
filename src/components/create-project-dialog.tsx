@@ -175,7 +175,7 @@ export function CreateProjectDialog({ onCreated, trigger }: CreateProjectDialogP
                     </Button>
                 )}
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[600px] bg-white rounded-3xl border-border/50 shadow-2xl">
+            <DialogContent className="sm:max-w-[600px] bg-background rounded-3xl border-border/50 shadow-2xl">
                 <DialogHeader className="space-y-3 pb-4 border-b border-border/50">
                     <DialogTitle className="text-2xl font-bold text-center text-foreground">
                         Let's Start Something New! 🚀
@@ -279,7 +279,7 @@ export function CreateProjectDialog({ onCreated, trigger }: CreateProjectDialogP
                                                     <FormLabel className="text-xs font-medium text-muted-foreground">Database Driver</FormLabel>
                                                     <Select onValueChange={field.onChange} defaultValue={field.value}>
                                                         <FormControl>
-                                                            <SelectTrigger className="h-9 text-xs rounded-lg border-border/50 bg-white">
+                                                            <SelectTrigger className="h-9 text-xs rounded-lg border-border/50 bg-background">
                                                                 <SelectValue placeholder="Select DB" />
                                                             </SelectTrigger>
                                                         </FormControl>
@@ -298,7 +298,7 @@ export function CreateProjectDialog({ onCreated, trigger }: CreateProjectDialogP
                                             control={form.control}
                                             name="includeTutorial"
                                             render={({ field }) => (
-                                                <FormItem className="flex flex-row items-center justify-between rounded-lg bg-white p-3 border border-border/50">
+                                                <FormItem className="flex flex-row items-center justify-between rounded-lg bg-background p-3 border border-border/50">
                                                     <div className="space-y-0.5">
                                                         <FormLabel className="text-xs font-medium">Include Boilerplate</FormLabel>
                                                     </div>

@@ -54,7 +54,7 @@ export function ProjectCard({ project, onDelete, onUpdate }: ProjectCardProps) {
 
     return (
         <Card
-            className="group relative overflow-hidden border-border/50 bg-white hover:border-primary/30 transition-all duration-300 rounded-3xl shadow-sm hover:shadow-md cursor-pointer"
+            className="group relative overflow-hidden border-border/50 bg-card hover:border-primary/30 transition-all duration-300 rounded-3xl shadow-sm hover:shadow-md cursor-pointer"
             onClick={handleOpen}
         >
             <CardHeader className="flex flex-row items-start justify-between pb-2">

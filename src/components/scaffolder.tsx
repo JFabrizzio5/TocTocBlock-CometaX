@@ -28,7 +28,8 @@ export function Scaffolder({ project }: ScaffolderProps) {
                 body: JSON.stringify({
                     projectPath: project.path,
                     type: project.type,
-                    moduleName: modelName
+                    moduleName: modelName,
+                    pattern: pattern
                 }),
             });
             const data = await res.json();
